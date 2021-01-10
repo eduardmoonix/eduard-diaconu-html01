@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Black.woff2') format('woff2'),
+    url('Roboto-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+h1 {
+  font-family: 'Julius Sans One';
+  font-size: 35px;
+  color: red;
+}
+
+ol a {
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+
+body {
+  font-family: 'Roboto';
+}
+
+li {
+  font-family: 'Julius Sans One';
+  line-height: 25px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 28px;
+  color: green;
+}
+
+h2 {
+  font-family: 'Julius Sans One';
+  text-decoration: underline;
+  font-size: 32px;
+  color: purple;
+}
+
+p {
+  line-height: 23px;
+}
