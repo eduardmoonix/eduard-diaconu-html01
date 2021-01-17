@@ -1,17 +1,35 @@
-.container {
-  border: 1px solid #000;
-  padding: 5px;
+.nav-top a {
+  background-color: black;
+  color: white;
+  top: 0px;
+  right: 0px;
+  z-index: 1;
+  position: absolute;
 }
 
 .nav-top {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 0px;
+  right: 0px;
+  color: white;
   background-color: black;
+  z-index: 1;
 }
 
-.nav-top a {
-  color: white;
+.legend {
+  position: absolute;
+  border: 1px solid red;
+  background-color: gray;
+  top: 1px;
+}
+
+.container {
+  position: relative;
+}
+
+.sub {
+  position: relative;
+  bottom: 1px;
 }
 
 .nav-bottom {
@@ -19,4 +37,5 @@
   position: fixed;
   left: 0;
   bottom: 0;
+  z-index: 1;
 }

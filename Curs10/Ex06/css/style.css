@@ -1,0 +1,26 @@
+.main a:hover {
+  text-decoration: none;
+}
+
+.main a:nth-of-type(2):hover {
+  text-decoration: none;
+}
+
+h1:hover {
+  text-decoration: underline;
+}
+
+p:hover {
+}
+
+.secondary a:hover {
+  text-decoration: overline;
+}
+
+.main a:nth-of-type(2n + 1):hover {
+  text-decoration: overline;
+}
+
+p b:hover {
+  color: red;
+}

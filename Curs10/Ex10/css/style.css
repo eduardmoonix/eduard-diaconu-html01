@@ -1,0 +1,32 @@
+body {
+  color: green;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul.list {
+  list-style-type: none;
+}
+
+.list ul {
+  list-style-type: inherit;
+}
+
+.para-short {
+  width: 500px;
+  margin: 10px auto;
+  border: 1px solid black;
+  padding: 15px;
+}
+
+.para-short p {
+  width: inherit;
+  text-align: center;
+  border: 1px solid red;
+}

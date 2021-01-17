@@ -2,8 +2,8 @@ a {
   color: green;
 }
 
-i {
-  color: red;
+.odd i {
+  text-decoration: underline;
 }
 
 .line {
@@ -18,13 +18,17 @@ b {
   color: purple;
 }
 
-.links a {
-  text-decoration: none;
+i {
+  color: red;
 }
 
 a[href^="http://"]
 {
   color: red;
+}
+
+.odd .line {
+  color: blue;
 }
 
 .even b {
@@ -34,12 +38,4 @@ a[href^="http://"]
 a[href*='.com'] {
   color: black;
   text-decoration: underline;
-}
-
-.odd i {
-  text-decoration: underline;
-}
-
-.line {
-  color: gray;
 }

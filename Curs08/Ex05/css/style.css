@@ -1,4 +1,42 @@
 .container {
-  border: 1px solid #000; 
+  border: 1px solid #000;
   padding: 5px;
+}
+
+.nav-bottom {
+  color: brown;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  background-color: blue;
+  z-index: 1;
+}
+
+.nav-bottom a {
+  color: brown;
+}
+
+.legend {
+  position: absolute;
+  background-color: gray;
+  border: 1px solid red;
+}
+
+.container {
+  position: relative;
+}
+
+.sup {
+  position: relative;
+  top: 1em;
+  font-size: 7px;
+}
+
+.nav-top {
+  position: fixed;
+  color: brown;
+  background-color: green;
+  z-index: 1;
+  top: 0px;
+  left: 0px;
 }
